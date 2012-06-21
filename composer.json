@@ -1,0 +1,26 @@
+{
+    "name": "rithis/silex-skeleton",
+    "homepage": "https://github.com/rithis/silex-skeleton",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vyacheslav Slinko",
+            "email": "vyacheslav.slinko@rithis.com",
+            "role": "Founder"
+        }
+    ],
+    "support": {
+        "email": "support@rithis.com",
+        "issues": "https://github.com/rithis/silex-skeleton/issues",
+        "wiki": "https://github.com/rithis/silex-skeleton/wiki",
+        "source": "https://github.com/rithis/silex-skeleton"
+    },
+    "require": {
+        "silex/silex": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Rithis": "src"
+        }
+    }
+}
