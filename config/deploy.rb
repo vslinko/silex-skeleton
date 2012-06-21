@@ -12,6 +12,6 @@ set :deploy_to, "/var/www/#{application}"
 
 namespace :deploy do
     task :finalize_update do
-        run "cd #{deploy_to} && wget -q http://getcomposer.org/composer.phar && php ./composer.phar install"
+        run "cd #{release_path} && wget -q http://getcomposer.org/composer.phar && php ./composer.phar install"
     end
 end
