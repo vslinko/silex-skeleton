@@ -14,7 +14,7 @@
 ### Apache
 
     <VirtualHost *:80>
-        DocumentRoot /path/to/project/directory
+        DocumentRoot /var/www/project-name/current
         ServerName project-name.localhost
 
         RewriteEngine on
@@ -27,7 +27,7 @@
 
     server {
         server_name project-name.localhost;
-        root /path/to/project/directory;
+        root /var/www/project-name/current;
 
         location / {
             try_files /web$uri @fallback;
