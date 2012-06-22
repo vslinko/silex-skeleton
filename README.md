@@ -2,12 +2,13 @@
 
 ## Installation
 
-    PROJECT_NAME=symfony-skeleton
-    git clone git://github.com/rithis/silex-skeleton.git $PROJECT_NAME
-    cd $PROJECT_NAME
-    git remote set-url origin git://github.com/rithis/$PROJECT_NAME.git
-    git remote add silex-skeleton git://github.com/rithis/silex-skeleton.git
-    composer.phar install
+### Install composer
+
+    curl -s http://getcomposer.org/installer | php
+
+### Install silex skeleton
+
+    composer.phar create-project rithis/silex-skeleton <target-directory>
 
 ## Server configuration
 
