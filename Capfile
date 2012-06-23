@@ -1,2 +1,3 @@
-load 'deploy'
-load 'config/deploy'
+require 'rubygems'
+require 'railsless-deploy'
+load    'config/deploy'
